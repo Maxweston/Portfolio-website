@@ -1,0 +1,91 @@
+About
+
+Hi, I'm Max, I am currently a Freelance Front-end Web developer. I am self taught and although my main strengths lie more in programming I also have a thirst for good design.
+I have worked on several projects, with each one trying, if possible use a newly learned skill or tool with the goal in mind of being a fully fledged full-stack developer.
+My projects try to be as faithful to best practises as possible and I always use responsive and accessible design from the start.
+
+Here are a collection of the skills I am familiar with and have used in my work:
+
+Front-end Development.
+
+	I have a good grounding in the basics of front-end web development, usually trying to keep everything as simple and clear as possible.
+
+	In more recent projects, I have started using SASS and occasionally using J-query as both speed up work-flow and give better code structure and browser support when used correctly.
+
+Server side
+
+	Although I'm relativity new to using PHP, I have used small amounts of it in projects in order to create working contact forms.
+
+Design
+	Although my main skill's lean more towards coding, I really enjoy creating icons within Adobe Illustrator© and I am starting to familiarise myself with Adobe Photoshop© to do any image editing.
+
+
+Development Tools
+
+	I have very recently begun to adopt using Git to more easily control the development process.
+	
+
+	
+WORK
+
+	This is freelance work I have completed.
+	
+	
+	Panyc
+
+	Complete Website Redesign
+
+	Panyc is a software development company for which I supplied a full website redesign from scratch. 
+	using some of the text from the previous build; the aim was to incorporate more modern web development techniques that were not available at the time of development of the websites last version (such as responsive web development).
+
+	the website also employed a gallery like structure to display work and projects it had finished and give an insight into work specifics for potential future business.
+
+	the project was made just using plain old HTML and CSS with a tiny bit of JavaScript to enhance certain aesthetics. 
+	A small amount of PHP was used in order to make a working contact form.
+	
+	I also provided a logo re-design and creation of select graphics to be used on the site.
+
+Skills Used
+
+	HTML5. CSS3. PHP. Adobe Illustrator©. Javascript. JQuery. Adobe Photoshop©.
+	
+	
+	
+	
+PROJECTS
+
+Projects
+
+These are Projects I have created or contributed to.
+
+
+My Portfolio Site
+
+	Design and Development
+
+	This website was completely designed and developed by me.
+
+	It is the first project in which I have implemented SASS (SCSS) into my work flow, again adopting responsive and accessible design from the start. 
+	A small amount of PHP was used in order to make a working contact form.
+
+Skills Used
+
+HTML5. CSS3. Design. Adobe Illustrator. SASS. PHP.
+
+
+
+SO51 Blog
+
+Creator & Contributor
+
+	SO51 is a music blog made with Word-press that I created and help contribute to. 
+	I provided the design and executed styling, this is not yet a finished project.
+
+Skills Used
+
+HTML5. CSS3. Design. Basic Word-press Development.
+
+
+CONTACT
+
+if you wish to contact me for freelance work or if you want to hire me please use the from below, alternatively I am contactable through linked-in to which a link to my profile is located  here.

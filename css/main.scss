@@ -1,0 +1,32 @@
+//colour varibles
+@import "colors.scss";
+
+//mixins
+@import "mixins.scss";
+
+//general styling
+@import "general.scss";
+
+//Header Rules
+@import "header.scss";
+
+//Content Rules
+@import "content.scss";
+
+//About/index Page Specific Styles
+@import "about.scss";
+
+//Work Page Specific Styling
+@import "work.scss";
+
+//Project Page Styles
+@import "project.scss";
+
+//Contact Form Styles
+@import "contact.scss";
+
+//Thank you screen styles
+@import "thank-you.scss";
+
+//Footer Rules
+@import "footer.scss";

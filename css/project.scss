@@ -1,0 +1,14 @@
+.project-section{
+	@extend .work-section;
+}
+
+.project-item-logo{
+	@extend .work-item-logo;
+	img{
+		border-radius: 50%;
+		background-position: right 10px top;	
+	}
+}
+.project-item-desc{
+	@extend .work-item-desc;
+}

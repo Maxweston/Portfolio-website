@@ -1,0 +1,118 @@
+#logo {
+	float: left;
+	display:inline-block;
+	$logo_width: 150px;
+	width: $logo_width;
+	height: $logo_width;
+	@media screen and (max-width: 1273px){
+		float: none;
+		display: block;
+		margin: auto;
+		width:($logo_width/189)*165;
+		height: 125px;
+	}
+}
+
+#header{
+	padding: 8px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	display: block;
+	height: 225px;
+	background: $pattern_color_background;
+	border-bottom: 1px solid $LIGHTGREY_dark;
+
+	@media screen and (max-width: 1273px){
+		height: 470px;
+		text-align: center;
+	}
+	@media screen and (max-width: 743px){
+		height: 470px;
+		padding-bottom: 20px;
+	}
+	@media screen and (max-width: 488px){
+		height: 520px;
+	}
+
+	#title{
+		display: inline-block;
+		margin-left: 30px;
+		vertical-align: 170%;
+        width: 275px;
+        padding-top: 20px;
+        h1{
+        	margin-top: 0px;
+        }
+		h1,h3{
+			display: block;
+			width: 275px;
+			margin-right: 20px;
+
+		}
+		@media screen and (max-width: 1273px){
+			display: block;
+			padding-top: 0px;
+			margin: 20px auto;
+		}
+
+	}
+
+	#nav{
+		display: inline-table;
+		float: right;
+		vertical-align: top;
+			#nav_about{
+				background: $BITTERSWEET_light;
+				@include nav_links;
+				transition-property: background;
+  				transition-duration: 0.25s;
+  				transition-timing-function: linear;
+				&:hover{
+					background: $BITTERSWEET_dark;
+				}
+			}
+
+			#nav_work{
+				background: $GRASS_light;
+				@include nav_links;
+				transition-property: background;
+  				transition-duration: 0.25s;
+  				transition-timing-function: linear;
+				&:hover{
+					background: $GRASS_dark;
+				}
+			}
+			#nav_projects{
+				@include nav_links;
+				background: $AQUA_light;
+				transition-property: background;
+  				transition-duration: 0.25s;
+  				transition-timing-function: linear;
+				&:hover{
+					background: $AQUA_dark;
+				}
+				@media screen and (max-width: 488px){
+					margin-top: 9px;
+				}
+			}
+			#nav_contact{
+				@include nav_links;
+				background: $BLUEJEANS_light;
+				transition-property: background;
+  				transition-duration: 0.25s;
+  				transition-timing-function: linear;
+				&:hover{
+					background: $BLUEJEANS_dark;
+				}
+				@media screen and (max-width: 488px){
+					margin-top: 9px;
+				}
+			}
+		@media screen and (max-width: 1273px){
+			float: none;
+			margin: 20px auto;
+			clear: both;
+    		display: inline-table;
+		}
+	}
+}

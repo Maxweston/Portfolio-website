@@ -1,0 +1,6 @@
+.about-content-section{
+	@extend .content-section;
+	p{
+		text-align: justify;
+	}
+}

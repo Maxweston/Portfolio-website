@@ -1,0 +1,76 @@
+.work-section{
+	@include clearfix;
+	margin-top: 20px;
+	border-top: 1px solid $LIGHTGREY_dark;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 35px;
+	@media screen and (max-width: 1273px){
+		padding-left: 0px;
+	}
+	.work-item-logo{
+		float: left;
+		display: inline-block;
+		a{
+			display: inherit;
+			width: 250px;
+			height: 250px;
+			border-radius: 50%;
+			@media screen and (max-width: 1273px){
+				margin: 0 auto 0 auto;
+			}
+			
+			@media screen and (max-width: 1331px){
+				width: 200px;
+				height: 200px;
+			}
+			@media screen and (max-width: 1006px){
+				width: 175px;
+				height: 175px;
+			}
+			@media screen and (max-width: 800px){
+				height: 150px;
+				width: 150px;
+			}
+		}
+		#panyc_logo{
+			background: $allmost_black_grey;
+		}
+		@media screen and (max-width: 1273px){
+			float: none;
+			display: block;
+		}
+		@media screen and (max-width: 835px){
+			margin-left: 0px;
+		}
+	}
+	.work-item-desc{
+		display: inline-block;
+		float: left;
+		width: 60%;
+		margin-left: 75px;
+		h2{
+			margin-top: 0px;
+		}
+		ul{
+			-webkit-padding-start: 0px;
+			li{
+				display: inline;
+			}
+			list-style: none;
+		}
+		@media screen and (max-width: 1273px){
+			display: block;
+			margin-left: 0px;
+			text-align: justify;
+			width: 100%;
+			margin-top: 30px;
+		}
+		p{
+			@media screen and (max-width: 835px){
+				font-size: 0.95em;
+			}
+		}
+	}
+}

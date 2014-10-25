@@ -1,0 +1,71 @@
+form{
+margin: 55px 0;
+font-size: 1.2em;
+position: static;
+}
+
+form div > label{
+width: 30%;
+padding: .5em 1em 1em 0;
+display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select{
+width: 60%;
+height: 2em;
+margin-bottom: 1em;
+padding: .3em;
+border: 0px solid #ccc;
+border-radius: 4px;
+outline: 0 none;
+font-family: 'ubuntu_titlingbold';
+&:focus{
+	background: $LIGHTGREY_dark;
+}
+}
+
+
+/* TEXTAREA */
+form textarea{
+min-height: 100px;
+margin-bottom: 0px;
+}
+
+#content > form > div:nth-child(3) > label{
+	padding-top: 0px;
+	margin-top: -10px;
+}
+
+/* BUTTON */
+form .button,
+form .button:active{
+margin: 0 auto;
+padding: 1em 2em 1em;
+border: 1px solid $SUNFLOWER_dark;
+border-radius: 4px;
+background: $SUNFLOWER_dark;
+font-family: 'ubuntu_titlingbold';
+color: $DARKGREY_dark;
+cursor: pointer;
+}
+
+form .button:hover{
+background: #fff;
+color: $SUNFLOWER_dark;
+}
+
+form .button:focus{
+outline: 0 none;
+}
+
+#submit-button{
+	text-align: center;
+}
+
+
+#submit-button.button{
+	margin: 0 auto;
+}
